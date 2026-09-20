@@ -17,9 +17,9 @@ Your goal is to rate your intuitive perception of the physical health state repr
 Please wear headphones for the best experience.
 """)
 
-# Replace these strings with your actual Google Sheet Share links
-RATINGS_SHEET_URL = "YOUR_GOOGLE_SHEET_URL_HERE"
-GROUPINGS_SHEET_URL = "YOUR_SECOND_GOOGLE_SHEET_URL_HERE"
+# Active Google Sheet Share links
+RATINGS_SHEET_URL = "https://docs.google.com/spreadsheets/d/1GQXZCd3BNJzetEhPUiaLnrEH36G2JWYwZK8OLRsorR0/edit?usp=sharing"
+GROUPINGS_SHEET_URL = "https://docs.google.com/spreadsheets/d/1mtbvsnz42qFeml7Y62FMt9jQv_WtjdLeku95FwowrMo/edit?usp=sharing"
 
 # Initialize session state to randomize and persist track order per participant
 if 'participant_id' not in st.session_state:
